@@ -1,6 +1,5 @@
 import requests
 import streamlit as st
-import os
 
 api_key = st.secrets["WEATHER_API_KEY"]
 
