@@ -2,10 +2,10 @@ import streamlit as st
 import plotly.express as px
 from backend import get_data
 
-sky_images = {'Clear': r'sky_images\clear.png',
-              'Clouds': r'sky_images\cloud.png',
-              'Rain': r'sky_images\rain.png',
-              'Snow': r'sky_images\snow.png'}
+sky_images = {'Clear': r'sky_images/clear.png',
+              'Clouds': r'sky_images/cloud.png',
+              'Rain': r'sky_images/rain.png',
+              'Snow': r'sky_images/snow.png'}
 
 st.title("Weather forecast for the next days")
 place = st.text_input("City:")
